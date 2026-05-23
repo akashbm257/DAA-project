@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f5f5f5;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+.controls {
+  margin: 20px;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  background: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: repeat(20, 30px);
+  justify-content: center;
+  gap: 1px;
+}
+
+.cell {
+  width: 30px;
+  height: 30px;
+  background: white;
+  border: 1px solid #ddd;
+}
+
+.start {
+  background: green;
+}
+
+.end {
+  background: red;
+}
+
+.wall {
+  background: black;
+}
+
+.visited {
+  background: #4da6ff;
+}
+
+.path {
+  background: yellow;
+}
